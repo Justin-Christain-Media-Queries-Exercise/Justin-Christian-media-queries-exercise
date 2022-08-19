@@ -78,6 +78,25 @@
     .sub-section h2 {
         font-weight: bold;
     }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-end;
+    }
+    #social-media-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #social-media-links ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    #social-media-links ul li {
+        padding: 0.2em;
+    }
+
 }
 
 
@@ -130,6 +149,8 @@
         align-self: flex-end;
         margin-top: 15em;
     }
+
+
 
 
     
